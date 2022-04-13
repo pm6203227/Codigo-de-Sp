@@ -1,0 +1,486 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.navsup{
+    width: auto;
+    margin: auto;
+    background-color: black;
+}
+
+.navsup ul{
+    list-style: none;
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+}
+
+.menu li{
+    text-align: center;
+}
+
+.menu{
+    text-align: right;
+    margin: auto;
+}
+
+.menu > li > a{
+    display: block;
+    padding: auto;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu li a:hover{
+    color: rgb(50, 241, 50);
+}
+
+
+/* logo*/
+
+.menu2{
+    float: left;
+    display: flex;
+    text-align: left;
+    align-items: flex-start;
+    padding: 16px;
+}
+
+
+.menu2 > li{
+    position: fixed;
+    display: inline-block;
+}
+
+/*Logo de pc*/
+
+.pc{
+    margin-left: 650px;
+    margin-top: 105px;
+    width: 136px;
+    height: 80.06px;
+}
+
+.check{
+    position: relative;
+    margin-top: 137px;
+    margin-left: -23px;
+    width: 10.88px;
+    height: 8.95px;
+}
+
+.circle{
+    position: relative;
+    margin-top: 125px;
+    margin-left: -85px;
+    width: 34px;
+    height: 34px;
+}
+
+.Descarga{
+    display: flex;
+    width: 1400spx;
+    height: 525.05px;
+    background-color: rgb(73, 247, 151);
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 250px;
+    margin-left: -260px;
+}
+
+.subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 310px;
+    margin-left: -450px;
+}
+
+.donde{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 70px;
+    margin-left: 400px;
+}
+
+.dondees{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+    margin-left: 555px;
+}
+
+.botones{
+    width: 1348px;
+    height: 230px;
+    background-color: white;
+}
+
+.appstore{
+    position: flex;
+    margin-top: 40px;
+    margin-left: 560px;
+}
+
+.play{
+    width: 119.66px;
+    height: 40px;
+}
+
+.black{
+    width: 1348px;
+    height: 450px;
+    background-color: #292929;
+}
+
+.disp{
+    width: 480px;
+    height: 174px;
+    position: relative;
+    margin-top: 70px;
+    margin-left: 500px;
+}
+
+.cuenta{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.disp2 >li{
+    position: relative;
+    display: inline-block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.disp2{
+    text-align: center;
+    margin-top: 40px;
+    color: rgb(50, 241, 50);
+}
+
+.disp2 li a:hover{
+    color: rgb(50, 241, 50);
+}
+
+.disp2 li a{
+    color: rgb(50, 241, 50);
+    padding: 15px;
+}
+
+.disp2 li{
+    padding: 4px;
+}
+
+/*footer*/
+
+.last{
+    width: 1348px;
+    height: 565px;
+    background-color: black;
+    padding: 20px;
+}
+
+.logo2{
+    width: 130px;
+    height: 40px;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 110px;
+}
+
+.ig{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 800px;
+}
+
+.tw{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.fb{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.disp2 >li{
+    position: relative;
+    display: inline-block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lista1{
+    position: relative;
+}
+
+.compa{
+    color: #636262;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-top: -25px;
+    margin-left: 270px;
+}
+
+.acerca{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-top: -1000px;
+    margin-left: 270px;
+    text-decoration: none;
+}
+.acerca:hover{
+    color: rgb(50, 241, 50);
+}
+
+.empleo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-left: 270px;
+    text-decoration: none;
+}
+.empleo:hover{
+    color: rgb(50, 241, 50);
+}
+
+.record{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-left: 270px;
+    text-decoration: none;
+}
+.record:hover{
+    color: rgb(50, 241, 50);
+}
+
+.lista2{
+    position: relative;
+}
+
+.dos{
+    position: relative;
+}
+
+.comu{
+    color: #636262;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 450px;
+    margin-top: -480px;
+}
+
+
+.servicios{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-left: 450px;
+    color: white;
+}
+
+.servicios:hover{
+    color: rgb(50, 241, 50);
+}
+
+.desarrollador{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-left: 450px;
+    color: white;
+}
+
+.desarrollador:hover{
+    color: rgb(50, 241, 50);
+}
+
+.publicidad{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-left: 450px;
+    color: white;
+}
+
+.publicidad:hover{
+    color: rgb(50, 241, 50);
+}
+
+.proveedor{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-left: 450px;
+    color: white;
+}
+
+.proveedor:hover{
+    color: rgb(50, 241, 50);
+}
+
+.investor{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-left: 450px;
+    color: white;
+}
+
+.investor:hover{
+    color: rgb(50, 241, 50);
+}
+
+.lista3{
+    position: relative;
+}
+
+.tres{
+    position: relative;
+}
+
+.enlace{
+    color: #636262;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 700px;
+    margin-top: -220px;
+}
+
+.help{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-left: 700px;
+    color: white;
+}
+
+.help:hover{
+    color: rgb(50, 241, 50); 
+}
+
+.rweb{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-left: 700px;
+    color: white; 
+}
+
+.rweb:hover{
+    color: rgb(50, 241, 50); 
+}
+
+
+.app{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-left: 700px;
+    color: white; 
+}
+
+.app:hover{
+    color: rgb(50, 241, 50); 
+}
+
+/* boton de descargas*/
+
+.btn{
+    display: block;
+    width: 130px;
+    height: 48px;
+    outline: none;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 60px;
+    cursor: pointer;
+    margin-top: 370px;
+    margin-left: -275px;
+    text-decoration: none;
+}
+
+
+.ultimo{
+    width: auto;
+    margin: auto;
+}
+
+.ultimo ul{
+    list-style: none;
+}
+
+.bottom > li{
+    position: relative;
+    display: inline-block;
+    margin-top: 250px;
+}
+
+.bottom li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.bottom li{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottom{
+    margin-left: 130px;
+    font-size: small;
+}
+
+.bottom > li > a{
+    display: block;
+    padding: auto;
+    text-decoration: none;
+}
+
+.bottom li a:hover{
+    color: rgb(50, 241, 50);
+}
+
+.world{
+    font-size: small;
+    position: relative;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -70px;
+    margin-left: 1200px;
+    text-decoration: none;
+
+}
+
+.world:hover{
+    color: rgb(50, 241, 50);
+}
+
+.copy{
+    font-size: small;
+    position: relative;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1140px;
+    text-decoration: none;
+}
